@@ -1,6 +1,7 @@
 import streamlit as st  # pyright: ignore[reportMissingImports]
 import pandas as pd  # pyright: ignore[reportMissingModuleSource]
 import numpy as np  # pyright: ignore[reportMissingImports]
+import matplotlib.pyplot as plt  # pyright: ignore[reportMissingModuleSource]
 import joblib  # pyright: ignore[reportMissingImports]
 from sklearn.naive_bayes import GaussianNB # pyright: ignore[reportMissingModuleSource]
 
