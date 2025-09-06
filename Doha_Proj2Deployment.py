@@ -1,7 +1,6 @@
 import streamlit as st  # pyright: ignore[reportMissingImports]
 import pandas as pd  # pyright: ignore[reportMissingModuleSource]
 import numpy as np  # pyright: ignore[reportMissingImports]
-import matplotlib.pyplot as plt  # pyright: ignore[reportMissingModuleSource]
 import joblib  # pyright: ignore[reportMissingImports]
 from sklearn.naive_bayes import GaussianNB # pyright: ignore[reportMissingModuleSource]
 
@@ -38,7 +37,6 @@ input_data = np.array([[Age,Tenure, gender_val]])
 st.write(f"You selected age: {Age}")
 st.write(f"You selected tenure: {Tenure}")
 st.write(f"You selected gender: {Gender}")
-
 
 # Predict
 st.markdown("---")
