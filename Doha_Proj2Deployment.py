@@ -28,8 +28,8 @@ page_bg = """
 }
 /* تعديل اللستة المنسدلة */
 .css-26l3qy-menu {
-    background: #FFFFFF !important; /* لون الخلفية */
-    color: Black !important;        /* لون التكست */
+    background: #000000 !important; /* لون الخلفية */
+    color: White !important;        /* لون التكست */
 }
 </style>
 """
@@ -100,6 +100,7 @@ with col2:
     ax.axis("equal")
 
     st.pyplot(fig)
+
 
 
 
