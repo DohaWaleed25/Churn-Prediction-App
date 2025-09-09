@@ -23,13 +23,13 @@ page_bg = """
 }
 /* تعديل الـ selectbox (القيمة المختارة) */
 .css-1wa3eu0-placeholder, .css-1uccc91-singleValue {
-    color: white !important;   /* يخلي التكست أبيض */
+    color: Black !important;   /* يخلي التكست أبيض */
     font-weight: bold;         /* ممكن تخليه بولد */
 }
 /* تعديل اللستة المنسدلة */
 .css-26l3qy-menu {
-    background: #333333 !important; /* لون الخلفية */
-    color: white !important;        /* لون التكست */
+    background: #FFFFFF !important; /* لون الخلفية */
+    color: Black !important;        /* لون التكست */
 }
 </style>
 """
@@ -100,6 +100,7 @@ with col2:
     ax.axis("equal")
 
     st.pyplot(fig)
+
 
 
 
