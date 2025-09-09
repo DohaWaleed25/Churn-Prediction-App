@@ -21,6 +21,16 @@ page_bg = """
 [data-testid="stSidebar"] * {
     color: black !important; /* يضمن أن كل العناصر جوه الـ sidebar تبقى باللون الأسود */
 }
+/* تعديل الـ selectbox (القيمة المختارة) */
+.css-1wa3eu0-placeholder, .css-1uccc91-singleValue {
+    color: white !important;   /* يخلي التكست أبيض */
+    font-weight: bold;         /* ممكن تخليه بولد */
+}
+/* تعديل اللستة المنسدلة */
+.css-26l3qy-menu {
+    background: #333333 !important; /* لون الخلفية */
+    color: white !important;        /* لون التكست */
+}
 </style>
 """
 st.markdown(page_bg, unsafe_allow_html=True)
@@ -90,6 +100,7 @@ with col2:
     ax.axis("equal")
 
     st.pyplot(fig)
+
 
 
 
