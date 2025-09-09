@@ -19,7 +19,7 @@ page_bg = """
     color: black; /* يجعل النصوص باللون الأسود */
 }
 [data-testid="stSidebar"] * {
-    color: black !important; /* يضمن أن كل العناصر جوه الـ sidebar تبقى باللون الأسود */
+    color: white !important; /* يضمن أن كل العناصر جوه الـ sidebar تبقى باللون الأسود */
 }
 /* تعديل الـ selectbox (القيمة المختارة) */
 .css-1wa3eu0-placeholder, .css-1uccc91-singleValue {
@@ -100,6 +100,7 @@ with col2:
     ax.axis("equal")
 
     st.pyplot(fig)
+
 
 
 
