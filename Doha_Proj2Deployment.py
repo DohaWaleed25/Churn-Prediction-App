@@ -9,13 +9,13 @@ from sklearn.naive_bayes import GaussianNB # pyright: ignore[reportMissingModule
 page_bg = """
 <style>
 [data-testid="stAppViewContainer"] {
-    background: linear-gradient(to right, #11998e, #4aa02c);
+    background: linear-gradient(to right, #4cc417, #4aa02c);
 }
 [data-testid="stHeader"] {
     background-color: rgba(0,0,0,0);
 }
 [data-testid="stSidebar"] {
-    background: #4cc417;
+    background: #4aa02c;
     color: black; /* يجعل النصوص باللون الأسود */
 }
 [data-testid="stSidebar"] * {
@@ -100,6 +100,7 @@ with col2:
     ax.axis("equal")
 
     st.pyplot(fig)
+
 
 
 
