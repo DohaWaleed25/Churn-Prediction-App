@@ -9,7 +9,7 @@ from sklearn.naive_bayes import GaussianNB # pyright: ignore[reportMissingModule
 page_bg = """
 <style>
 [data-testid="stAppViewContainer"] {
-    background: linear-gradient(to right, #d9a7c7, #fffcdc);
+    background: linear-gradient(to right, #667eea, #764ba2);
 }
 [data-testid="stHeader"] {
     background-color: rgba(0,0,0,0);
@@ -100,6 +100,7 @@ with col2:
     ax.axis("equal")
 
     st.pyplot(fig)
+
 
 
 
