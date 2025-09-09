@@ -35,7 +35,7 @@ st.markdown(
 
 df = pd.read_excel("churn_dataset.xlsx")
 st.subheader("Show Dataset Preview")
-st.write(df)
+#st.write(df)
 
 
 # Load Model 
@@ -86,5 +86,6 @@ with col2:
     ax.axis("equal")
 
     st.pyplot(fig)
+
 
 
