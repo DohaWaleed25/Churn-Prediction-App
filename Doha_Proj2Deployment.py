@@ -5,6 +5,22 @@ import matplotlib.pyplot as plt  # pyright: ignore[reportMissingModuleSource]
 import joblib  # pyright: ignore[reportMissingImports]
 from sklearn.naive_bayes import GaussianNB # pyright: ignore[reportMissingModuleSource]
 
+# Background 
+page_bg = """
+<style>
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(to right, #d9a7c7, #fffcdc);
+}
+[data-testid="stHeader"] {
+    background-color: rgba(0,0,0,0);
+}
+[data-testid="stSidebar"] {
+    background: #f0f2f6;
+}
+</style>
+"""
+st.markdown(page_bg, unsafe_allow_html=True)
+
 # Title 
 st.title("📊 Churn Prediction 📊") 
 st.write("This Simple app uses a Naive Bayes Model to predict whether a customer is likely to **churn** or not.")
@@ -68,4 +84,5 @@ with col2:
     ax.pie(pred_proba, labels=labels, autopct="%1.1f%%",
            startangle=90, colors=colors, textprops={"fontsize": 8})
     ax.axis("equal")
+
     st.pyplot(fig)
