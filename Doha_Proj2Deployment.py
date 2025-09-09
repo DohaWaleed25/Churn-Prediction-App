@@ -15,7 +15,11 @@ page_bg = """
     background-color: rgba(0,0,0,0);
 }
 [data-testid="stSidebar"] {
-    background: #38ef7d;
+    background: #4aa02c;
+    color: black; /* يجعل النصوص باللون الأسود */
+}
+[data-testid="stSidebar"] * {
+    color: black !important; /* يضمن أن كل العناصر جوه الـ sidebar تبقى باللون الأسود */
 }
 </style>
 """
@@ -86,6 +90,7 @@ with col2:
     ax.axis("equal")
 
     st.pyplot(fig)
+
 
 
 
