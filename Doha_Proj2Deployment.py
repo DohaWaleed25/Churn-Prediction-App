@@ -15,7 +15,7 @@ page_bg = """
     background-color: rgba(0,0,0,0);
 }
 [data-testid="stSidebar"] {
-    background: #307D7E;
+    background: #566D7E;
 }
 </style>
 """
@@ -86,4 +86,5 @@ with col2:
     ax.axis("equal")
 
     st.pyplot(fig)
+
 
