@@ -15,7 +15,7 @@ page_bg = """
     background-color: rgba(0,0,0,0);
 }
 [data-testid="stSidebar"] {
-    background: #6afb92;
+    background: #347c17;
     color: black; /* يجعل النصوص باللون الأسود */
 }
 [data-testid="stSidebar"] * {
@@ -100,6 +100,7 @@ with col2:
     ax.axis("equal")
 
     st.pyplot(fig)
+
 
 
 
